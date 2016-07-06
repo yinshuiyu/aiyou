@@ -1,0 +1,175 @@
+/***************
+@ By Kangning
+@ On 2015-11-07
+***************/
+
+@charset "utf-8";
+/* CSS reset */
+*{font-family: "优黑","微软雅黑", "宋体", "Microsoft Yahei", "Pinghei", Arial, Helvetica, sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{font:12px "微软雅黑", "宋体",Arial, Helvetica, sans-serif;}
+a{color: #313131;text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden,.none{display: none;}
+
+.display-flexbox {
+    display: -webkit-box;   /* 兼容旧的 webkit，Android 2.x */
+    display: -webkit-flex;  /* 标准写法 带 webkit 前缀，兼容标准确立之前的 webkit */
+    display: flex;          /* 标准写法 最新的 webkit, firefox, msie 可以支持 */
+}
+.flexbox-children {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+
+body{}
+.banner{
+	margin: 0 auto;
+	max-width: 1440px;}
+	.banner a{display: block;}
+		.banner img{max-width: 100%;}
+		.swiper-pagination-bullet{
+			width: 14px;
+			height: 14px;
+			opacity: 1;
+			transition: .2s;
+			background: #f36e0b;}
+		.swiper-pagination-bullet.swiper-pagination-bullet-active{
+			width: 20px;
+			border-radius: 7px;
+			background: #fff;}
+
+header{
+	text-align: center;
+	font-size: 16px;
+	color: #666666;}
+	nav{
+		display: inline-block;
+		padding: 39px 0;}
+	header a{
+		height: 36px;
+		line-height: 36px;
+		color: #666;
+		padding: 0 26px;
+		/*margin: 18px 0 0;*/
+		border-radius: 18px;
+		display: inline-block;}
+		header a.logo{
+			width: 107px;
+			height: 77px;
+			margin: 0;
+			float: left;
+			padding: 0;
+			margin: -21px 70px -20px 0;
+			text-indent: -99999px;
+			background: url(../img/logo.png) no-repeat center center;}
+		header a.current{
+			color: #fff;
+			background: #ff7e00;}
+footer{
+	color: #fff;
+	padding: 60px 0;
+	background: #000;
+	font-size: 18px;
+	margin: 300px 0 0;
+	text-align: center;}
+.box{
+	text-align: center;
+	margin: 0 auto;}
+	h1.title{
+		font-size: 48px;
+		color: #ff6000;
+		font-weight: normal;
+		padding: 50px 0;}
+		.title span{
+			display: block;
+			font-size: 24px;
+			color: #999999;
+			padding: 26px 0 0;}
+	.game_box{
+		width: 464px;
+		height: 297px;
+		color: #fff;
+		display: inline-block;
+		position: relative;}
+		.game_box + .game_box{margin-left: 70px;}
+		.game_box > img{display: block;}
+		.box_core{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			transition: .2s;
+			background: url(../img/grey.png) repeat 0 0;}
+			.game_box:hover .box_core{opacity: 1;}
+			.box_core > h1{
+				font-size: 60px;
+				padding: 50px 0 0;
+				font-weight: normal;}
+				.box_core > h1 span{
+					display: block;
+					font-size: 24px;}
+			.game_box_bottom{
+				width: 100%;
+				line-height: 30px;
+				position: absolute;
+				bottom: 0;
+				font-size: 16px;
+				padding: 10px 25px;
+				text-align: left;
+				box-sizing: border-box;
+				background: url(../img/grey.png);}
+				.download{
+					height: 35px;
+					line-height: 35px;
+					border-radius: 17px;
+					text-align: center;
+					color: #fff;
+					float: right;
+					font-size: 18px;
+					padding: 0 20px 0 36px;
+					margin: 10px 0 0;
+					border: 1px solid #fff;
+					background: url(../img/download.png) no-repeat 22px center;}
+
+@media screen and (max-width: 999px){
+}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
