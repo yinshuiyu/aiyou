@@ -4,4 +4,12 @@ $(function(){
 	    pagination: '.swiper-pagination',
 	    paginationClickable: true
 	})
+
+	$('.recruit_expand').click(function(){
+		var oThis = $(this),
+			oParent = oThis.parent()
+
+		oThis.toggleClass('expand');
+		oParent.find('.can_expand').toggleClass('hidden');
+	})
 })

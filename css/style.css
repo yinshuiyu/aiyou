@@ -218,6 +218,65 @@ footer{
 	margin: 150px auto 0;}
 	.recruit h1.title{text-align: center;}
 
+.recruit_ul{list-style: none;}
+	.recruit_ul > li{
+		display: block;
+		clear: both;
+		margin-bottom: 40px;
+		overflow: hidden;}
+		.recruit_type{
+			float: left;
+			width: 175px;
+			padding: 190px 0 0;
+			text-align: center;
+			color: #333333;
+			font-size: 24px;
+			background: url(../img/recruit_icon.jpg) no-repeat center 0;}
+			.recruit_type.recruit_type_1{background-position: center -395px;}
+		.recruit_right{
+			margin-left: 214px;
+			padding: 0 18px;
+			background: #e3f5fc;
+			border-radius: 6px;}
+			.recruit_right li{
+				line-height: 24px;
+				font-size: 14px;
+				color: #333333;
+				list-style: none;
+				padding: 16px 0;
+				position: relative;}
+				.recruit_right li ~ li{
+					border-top: 1px solid #fff;}
+				.recruit_right li h2{
+					color: #0066cc;
+					font-size: 24px;
+					padding-bottom: 10px;}
+				.recruit_right li strong{
+					color: #333333;
+					display: block;}
+				.recruit_right li .recruit_expand{
+					color: #0066cc;
+					position: absolute;
+					right: 0;
+					bottom: 16px;
+					padding-left: 18px;
+					background: url(../img/expand_icon.png) no-repeat 0 5px;}
+					.recruit_right li .recruit_expand.expand{background-position: 0 -83px;}
+					.recruit_expand .unexpand{display: none;}
+					.recruit_expand.expand .unexpand{display: inline;}
+					.recruit_expand.expand .expand{display: none;}
+				.apply_job{
+					width: 140px;
+					line-height: 37px;
+					color: #fff;
+					display: block;
+					text-align: center;
+					border-radius: 2px;
+					background: #ff6000;
+					margin: 0 auto;
+					clear: both;}
+
+
 @media screen and (max-width: 999px){
 }
 		
