@@ -278,6 +278,98 @@ footer{
 
 
 @media screen and (max-width: 999px){
+	footer{
+		font-size: 14px;
+		line-height: 24px;
+		padding: 10px 0;
+		margin-top: 0;
+	}
+	nav{
+		padding: 15px 0;
+	}
+		header a{
+			min-width: 116px;
+			box-sizing: border-box;
+		}
+		header a.logo{
+			width: 100%;
+			margin: 0 0 20px;
+		}
+
+	h1.title{
+		font-size: 30px;
+		padding: 20px 0;
+	}
+		.title span{
+			font-size: 16px;
+			padding-top: 6px;
+		}
+
+	.game_box{
+		width: 100%;
+		height: auto;
+	}
+	.game_box + .game_box{
+		margin: 10px auto;
+	}
+		.game_box > img{
+			width: 100%;
+		}
+		.box_core{
+			opacity: 1;
+			background: none;
+		}
+			.box_core > h1{
+				font-size: 30px;
+				text-shadow: 0 0 5px rgba(0,0,0,.7), 0 0 5px rgba(0,0,0,.7);
+			}
+				.box_core > h1 span{
+					font-size: 20px;	
+				}
+			.game_box_bottom{
+				font-size: 12px;
+				padding: 5px 15px;
+			}
+				.download{
+					font-size: 14px;
+				}
+				.game_box_bottom img{
+					width: 12px;
+				}
+	.our_news{
+		margin-top: 10px;
+		height: auto;
+	}
+		.news_step{
+			height: auto;
+		}
+			.news_step li{
+				margin-bottom: 10px;
+			}
+				.news_step li p{
+					display: block;
+				}
+	.about_us{
+		width: 100%;
+	}
+		.about_us p{
+			padding: 0 20px;
+		}
+	.recruit{
+		width: 100%;
+		margin: 0;
+	}
+		.recruit_type{
+			float: none;
+			margin: 10px auto;
+		}
+		.recruit_right{
+			margin-left: 0;
+		}
+			.recruit_right li .recruit_expand{
+				display: block;
+				position: static;
+			}
 }
 		
 
